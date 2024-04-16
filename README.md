@@ -24,3 +24,30 @@ Additional Notes:
 	•	My application continuously retrieves data from the NIST API every second using setInterval.
 	•	Fetched data is displayed in separate sections for current and sample data.
 	•	I implemented error handling to capture and log any errors occurring during data retrieval
+
+ 
+Testing Documentation
+As part of the development process for Project 1, I conducted testing to ensure the functionality and reliability of the application. Below are the details of the test cases conducted and their results:
+Test Case 1: Verify Data Display
+Description: I verified that the application correctly displays the fetched data from the NIST API.
+Test Steps:
+* 		I opened the application in a web browser.
+* 		I observed the "Current Data" section.
+* 		I verified that the current manufacturing data is displayed.
+* 		I observed the "Sample Data" section.
+* 		I verified that the sample manufacturing data is displayed.
+Expected Result: The application should display the current and sample manufacturing data fetched from the NIST API.
+Actual Result: Upon testing, the application successfully displayed the current and sample manufacturing data as expected.
+Test Case 2: Verify Settings Functionality
+Description: I verified the functionality of the settings section, including the ability to update URLs and the data refresh interval.
+Test Steps:
+
+* 		I opened the application in a web browser.
+* 		I navigated to the "Settings" section.
+* 		I updated the current URL to a different valid URL.
+* 		I updated the sample URL to a different valid URL.
+* 		I updated the data refresh interval to a different value.
+* 		I saved the changes.
+* 		I observed the application behavior.
+Expected Result: The application should update the URLs and refresh interval accordingly, fetching data from the new URLs and refreshing the data at the specified interval.
+Actual Result: Upon testing, the application successfully updated the URLs and refresh interval, fetching data from the new URLs and refreshing the data at the specified interval.
