@@ -1,86 +1,47 @@
-/* 
-   Styles for the container element, setting maximum width, centering, and adding padding.
-*/
+/* App.css */
+/* CSS styles for layout, input fields, and data display */
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-/* 
-   Styles for the title, aligning it to the center, setting font size, and adding margin at the bottom.
-*/
 .title {
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 30px;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
 }
 
-/* 
-   Styles for data sections, adding margin at the bottom.
-*/
-.data-section {
-    margin-bottom: 40px;
-}
-
-/* 
-   Styles for section titles, setting font size and adding margin at the bottom.
-*/
 .section-title {
-    font-size: 20px;
-    margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
-/* 
-   Styles for data lists, removing list bullet points and padding.
-*/
-.data-list {
-    list-style-type: none;
-    padding: 0;
-}
-
-/* 
-   Styles for data items, adding margin at the bottom.
-*/
-.data-item {
-    margin-bottom: 10px;
-}
-
-/* 
-   Styles for data names, setting font weight to bold.
-*/
-.data-name {
-    font-weight: bold;
-}
-
-/* 
-   Styles for settings sections, adding margin at the bottom.
-*/
-.settings-section {
-    margin-bottom: 40px;
-}
-
-/* 
-   Styles for input groups, adding margin at the bottom.
-*/
 .input-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-/* 
-   Styles for input labels, displaying block and adding margin at the bottom.
-*/
 .input-label {
-    display: block;
-    margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
 
-/* 
-   Styles for input fields, setting width to 100%, padding, border, and border radius.
-*/
 .input-field {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.data-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.data-item {
+  margin-bottom: 10px;
+}
+
+.data-name {
+  font-weight: bold;
 }
